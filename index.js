@@ -1,9 +1,3 @@
-class Cliente {
-  nome;
-  cpf;
-  
-}
-
 class contaCorrente {
   agencia;
   _saldo = 0;
