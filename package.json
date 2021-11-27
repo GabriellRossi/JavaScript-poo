@@ -2,6 +2,9 @@
   "name": "bytebank",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    
+  },
   "repository": "https://github.com/GabriellRossi/JavaScript-poo.git",
   "author": "Gabriel Rossi <gabriel.rossi159@gmail.com>",
   "license": "MIT",
