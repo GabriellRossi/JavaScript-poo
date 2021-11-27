@@ -1,8 +1,10 @@
 import { Cliente } from "./Cliente.js";
 
 export class ContaCorrente{
-  agencia;
-  _cliente;
+    
+    static numeroDeContas = 0;
+    agencia;
+    _cliente;
 
   _saldo = 0;
 
@@ -12,7 +14,7 @@ export class ContaCorrente{
         }
     }
 
-    get cliente(novoValor){
+    get cliente(){
         return this._cliente;
     }
 
